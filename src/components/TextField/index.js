@@ -1,14 +1,17 @@
 import './TextField.css';
 
 const TextField = (props) => {
-    console.log(props);
 
     const placeholderModify = `${props.placeholder} ...`
+
+    const onChange = (e) => {
+        props.onChange(e.target.value);
+    }
 
     return (
         <div className="campo-texto">
             <label>{props.label}:</label>
-            <input required={props.required} placeholder={placeholderModify}/>
+            <input value={props.value} onChange={onChange} required={props.required} placeholder={placeholderModify}/>
         </div>
     )
 }
