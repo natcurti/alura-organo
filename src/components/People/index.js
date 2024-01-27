@@ -1,10 +1,12 @@
 import './People.css';
+import { IoCloseCircle } from "react-icons/io5";
 
-const People = ({name, charge, image, primaryColor}) => {
-    console.log(primaryColor)
+
+const People = ({id, name, charge, image, color, deletePeople}) => {
     return (
         <div className="people">
-            <div className="header" style={{backgroundColor: primaryColor}}>
+            <IoCloseCircle size={25} className="delete" onClick={() => deletePeople(id)}/>
+            <div className="header" style={{backgroundColor: color}}>
                 <img src={image} alt={name}/>
             </div>
             <div className="footer">

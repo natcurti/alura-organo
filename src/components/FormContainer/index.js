@@ -3,6 +3,7 @@ import TextField from '../TextField';
 import DropDownList from '../DropDownList';
 import Button from '../Button';
 import {useState} from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const FormContainer = (props) => {
 
@@ -17,7 +18,8 @@ const FormContainer = (props) => {
             name,
             charge,
             image,
-            group
+            group,
+            id: uuidv4()
         });
         setName('')
         setCharge('')
