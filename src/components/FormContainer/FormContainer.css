@@ -1,11 +1,14 @@
 .form-container{
+    width: 80vw;
     display: flex;
     justify-content: center;
-    margin: 80px 0;
+    margin: 80px auto;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .form-container form{
-    max-width: 80%;
+    flex: 1;
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 36px 64px;

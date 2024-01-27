@@ -9,15 +9,17 @@ const Group = (props) => {
             <input type="color" className="input-color" value={props.color} onChange={e => props.changeColor(e.target.value, props.id)}/>
             <h3 style={{borderColor: props.color}}>{props.name}</h3>
             <div className="peopleCard">
-                {(props.people).map(eachPeople => 
+                {(props.people).map(eachPerson => 
                     <People
-                        key={eachPeople.name} 
-                        name={eachPeople.name} 
-                        charge={eachPeople.charge} 
-                        image={eachPeople.image} 
-                        id={eachPeople.id}
+                        key={eachPerson.name} 
+                        name={eachPerson.name} 
+                        charge={eachPerson.charge} 
+                        image={eachPerson.image} 
+                        favorite={eachPerson.favorite}
+                        id={eachPerson.id}
                         color={props.color}
-                        deletePeople={props.deletePeople}
+                        deletePerson={props.deletePerson}
+                        handleFavorite={props.handleFavorite}
                     />
                 )}
             </div>

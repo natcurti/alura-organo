@@ -47,15 +47,12 @@ function App() {
 
   const [people, setPeople] = useState([]);
 
-  const handleNewPeople = (newPeople) => {
-    console.log(groups);
-    console.log(people);
-    setPeople([...people, newPeople]);
+  const handleNewPeople = (newPerson) => {
+    setPeople([...people, newPerson]);
   }
 
-  const deletePeopleFromGroup = (id) => {
-    console.log("Colaborador deletado.", id);
-    setPeople(people.filter(eachPeople => eachPeople.id !== id));
+  const deletePersonFromGroup = (id) => {
+    setPeople(people.filter(eachPerson => eachPerson.id !== id));
   }
 
   const changeGroupColor = (color, selectedGroup) => {
@@ -71,13 +68,22 @@ function App() {
     setGroups([...groups, {id: uuidv4(), name: newGroup.name, groupColor: newGroup.color}])
   }
 
+  const handleFavorite = (id) => {
+    setPeople(people.map(eachPerson => {
+      if(eachPerson.id === id){
+        eachPerson.favorite = !eachPerson.favorite;
+      }
+      return eachPerson;
+    }))
+  }
+
   return (
     <div>
       <Banner/>
       <FormContainer
         registerGroup={registerNewGroup}
         groups={groups.map(group => group.name)} 
-        addNewPeople={people => handleNewPeople(people)}
+        addNewPerson={person => handleNewPeople(person)}
       />
       {groups.map(group => 
         <Group 
@@ -85,9 +91,10 @@ function App() {
           name={group.name}
           id={group.id}
           color={group.groupColor}
-          people={people.filter(eachPeople => eachPeople.group === group.name)}
-          deletePeople={deletePeopleFromGroup}
+          people={people.filter(eachPerson => eachPerson.group === group.name)}
+          deletePerson={deletePersonFromGroup}
           changeColor={changeGroupColor}
+          handleFavorite={handleFavorite}
         />
       )}
       <Footer/>
