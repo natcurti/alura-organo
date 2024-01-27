@@ -48,6 +48,8 @@ function App() {
   const [people, setPeople] = useState([]);
 
   const handleNewPeople = (newPeople) => {
+    console.log(groups);
+    console.log(people);
     setPeople([...people, newPeople]);
   }
 
@@ -65,10 +67,18 @@ function App() {
     }))
   }
 
+  const registerNewGroup = (newGroup) => {
+    setGroups([...groups, {id: uuidv4(), name: newGroup.name, groupColor: newGroup.color}])
+  }
+
   return (
     <div>
       <Banner/>
-      <FormContainer groups={groups.map(group => group.name)} addNewPeople={people => handleNewPeople(people)}/>
+      <FormContainer
+        registerGroup={registerNewGroup}
+        groups={groups.map(group => group.name)} 
+        addNewPeople={people => handleNewPeople(people)}
+      />
       {groups.map(group => 
         <Group 
           key={group.name} 
