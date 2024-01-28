@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Banner from './components/Banner';
 import FormContainer from './components/FormContainer';
 import Group from './components/Group';
@@ -11,41 +11,51 @@ function App() {
     {
       id: uuidv4(),
       name: 'Programação',
-      groupColor: '#D9F7E9'
+      groupColor: '#00D672'
     },
     {
       id: uuidv4(),
       name: 'Front-End',
-      groupColor: '#E8F8FF'
+      groupColor: '#0084FF'
     },
     {
       id: uuidv4(),
       name: 'Data Science',
-      groupColor: '#F0F8E2'
+      groupColor: '#61FFED'
     },
     {
       id: uuidv4(),
       name: 'DevOps',
-      groupColor: '#FDE7E8'
+      groupColor: '#FF5252'
     },
     {
       id: uuidv4(),
       name: 'UX e Design',
-      groupColor: '#FAE9F5'
+      groupColor: '#B200D6'
     },
     {
       id: uuidv4(),
       name: 'Mobile',
-      groupColor: '#FFF5D9'
+      groupColor: '#FFC800'
     },
     {
       id: uuidv4(),
       name: 'Gestão e Inovação',
-      groupColor: '#FFEEDF'
+      groupColor: '#B38AFF'
     }
   ]);
 
   const [people, setPeople] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3001/persons')
+      .then(response => response.json())
+      // .then(data => data.map(item => {
+      //   console.log(item.group)
+      //   return item
+      // }))
+      .then(data => setPeople(data))
+  }, [])
 
   const handleNewPeople = (newPerson) => {
     setPeople([...people, newPerson]);

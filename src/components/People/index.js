@@ -15,11 +15,15 @@ const People = ({id, name, charge, image, color, deletePerson, favorite, handleF
         <div className="people">
             <IoCloseCircle size={25} className="delete" onClick={() => deletePerson(id)}/>
             <div className="header" style={{backgroundColor: color}}>
-                <img src={image} alt={name}/>
+                <div className="container-image">
+                    <img src={image} alt={name}/>
+                </div>
             </div>
             <div className="footer">
-                <h4>{name}</h4>
-                <h5>{charge}</h5>
+                <div>
+                    <h4>{name}</h4>
+                    <h5>{charge}</h5>
+                </div>
                 <div className="favorite">
                     {favorite ? <IoMdHeart {...favoriteIconProps}/> : <IoMdHeartEmpty {...favoriteIconProps}/>}
                 </div>

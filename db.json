@@ -1,0 +1,228 @@
+{
+    "persons": [
+        {
+           "name": "Beatriz Gomes",
+           "charge": "Back-end Developer",
+           "image": "https://lh5.googleusercontent.com/jkVEI5-EDKqNh9MRnF1VYQpq-KoC6tVNdYsbw_w7gUTa6fuYxwxc20pOsUhVHEBJvz__PhNPH2M5pEjjnHx-EKhvnns_sStrU6NsPqCnvVGeWjQqH1k1SMHY1gsLLQplLMWfFZ9M",
+           "group": "Programação",
+           "id": "1",
+           "favorite": false
+        },
+        {
+            "name": "Bruna Ribeiro",
+            "charge": "Java Developer",
+            "image": "https://jooinn.com/images/woman-holding-disposable-cup.jpg",
+            "group": "Programação",
+            "id": "2",
+            "favorite": false
+        },
+        {
+            "name": "Paulo Santos",
+            "charge": "Python Developer",
+            "image": "https://i.pinimg.com/originals/fc/67/03/fc6703e79d41363832817cbdf297beaa.jpg",
+            "group": "Programação",
+            "id": "3",
+            "favorite": false
+        },
+        {
+            "name": "Samuel Cavalcanti",
+            "charge": "Tech Lead",
+            "image": "https://www.mensjournal.com/.image/t_share/MTk2MTM2NTcwNDMxMjg0NzQx/man-taking-selfie.jpg",
+            "group": "Programação",
+            "id": "4",
+            "favorite": false
+        },
+        {
+            "name": "Douglas Costa",
+            "charge": "Front-end Developer",
+            "image": "https://i.pinimg.com/originals/ae/9b/ae/ae9bae263ed27be66a775eff13e603c5.jpg",
+            "group": "Front-End",
+            "id": "5",
+            "favorite": false
+         },
+         {
+             "name": "Emilly Martins",
+             "charge": "Instrutora",
+             "image": "https://aestheticsofessex.co.uk/wp-content/uploads/2020/04/shutterstock_476340928-scaled.jpg",
+             "group": "Front-End",
+             "id": "6",
+             "favorite": false
+         },
+         {
+             "name": "Livia Oliveira",
+             "charge": "Front-end Developer",
+             "image": "https://wallpapers.com/images/hd/headshot-of-a-girl-with-corporate-attire-qdkezk5uhv9bo30l.jpg",
+             "group": "Front-End",
+             "id": "7",
+             "favorite": false
+         },
+         {
+             "name": "Marcos Cardoso",
+             "charge": "Tech Lead",
+             "image": "https://c.pxhere.com/photos/f7/4c/smile_profile_face_male_portrait_young_person_glasses-451655.jpg!d",
+             "group": "Front-End",
+             "id": "8",
+             "favorite": false
+         },
+         {
+            "name": "Luis Alves",
+            "charge": "Engenheiro de dados",
+            "image": "https://media.baamboozle.com/uploads/images/788173/1655912407_1715764_gif-url.jpeg",
+            "group": "Data Science",
+            "id": "9",
+            "favorite": false
+         },
+         {
+             "name": "Julia Ferreira",
+             "charge": "Instrutora",
+             "image": "https://otcbeautymagazine.com/wp-content/uploads/2015/08/model2.jpg",
+             "group": "Data Science",
+             "id": "10",
+             "favorite": false
+         },
+         {
+             "name": "Raissa Santos",
+             "charge": "Especialista em Marketing Analytics",
+             "image": "https://nonprofitquarterly.org/wp-content/uploads/2023/07/adelante.jpeg",
+             "group": "Data Science",
+             "id": "11",
+             "favorite": false
+         },
+         {
+             "name": "Luana Lima",
+             "charge": "Desenvolvedora PL/SQL",
+             "image": "https://assets.entrepreneur.com/content/3x2/2000/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg",
+             "group": "Data Science",
+             "id": "12",
+             "favorite": false
+         },
+         {
+            "name": "Erick Rodrigues",
+            "charge": "Engenheiro DevOps",
+            "image": "https://herway.net/wp-content/uploads/2020/11/man-smiling-1536x1025.jpg",
+            "group": "DevOps",
+            "id": "13",
+            "favorite": false
+         },
+         {
+             "name": "Fábio Cunha",
+             "charge": "Instrutor",
+             "image": "https://blog.photofeeler.com/wp-content/uploads/2017/12/linkedin-profile-picture.jpg",
+             "group": "DevOps",
+             "id": "14",
+             "favorite": false
+         },
+         {
+             "name": "Tomás Dias",
+             "charge": "Engenheiro DevOps",
+             "image": "https://disastersites-com.s3.amazonaws.com/public/user/6b/08/badbc63dff5480729f0276cf441e4441.jpg",
+             "group": "DevOps",
+             "id": "15",
+             "favorite": false
+         },
+         {
+             "name": "Nicole Martins",
+             "charge": "Engenheira DevOps",
+             "image": "https://i.pinimg.com/originals/7e/34/24/7e3424c072122c2ab42d54cd152fdde2.jpg",
+             "group": "DevOps",
+             "id": "16",
+             "favorite": false
+         },
+         {
+            "name": "Luana Castro",
+            "charge": "Designer de Experiência do Usuário",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-ux-2880-1000,f_auto,q_auto:best/newscms/2016_01/1363946/160105_councilor_wu_headshot.jpg",
+            "group": "UX e Design",
+            "id": "17",
+            "favorite": false
+         },
+         {
+             "name": "Aline Barros",
+             "charge": "Instrutora",
+             "image": "https://jooinn.com/images/close-up-photography-of-a-woman-smiling-7.png",
+             "group": "UX e Design",
+             "id": "18",
+             "favorite": false
+         },
+         {
+             "name": "Guilherme Araujo",
+             "charge": "Designer de Interface",
+             "image": "https://lastfm.freetls.fastly.net/i/u/ar0/68eca43fcd864256c2b5124edf57c5b0.png",
+             "group": "UX e Design",
+             "id": "19",
+             "favorite": false
+         },
+         {
+             "name": "Pedro Barros",
+             "charge": "Designer de Interface",
+             "image": "https://www.wallofcelebrities.com/celebrity/vaughn-wilson/pictures/xxlarge/vaughn-wilson_3900712.jpg",
+             "group": "UX e Design",
+             "id": "20",
+             "favorite": false
+         },
+         {
+            "name": "Anna Carvalho",
+            "charge": "Desenvolvedora Mobile",
+            "image": "https://sowelo.eu/wp-content/uploads/2014/03/kobieta1.jpg",
+            "group": "Mobile",
+            "id": "21",
+            "favorite": false
+         },
+         {
+             "name": "Carolina Araujo",
+             "charge": "Instrutora",
+             "image": "https://cdn.mensagenscomamor.com/content/images/p000028110.jpg?v=1&w=2507&h=1410&c=1",
+             "group": "Mobile",
+             "id": "22",
+             "favorite": false
+         },
+         {
+             "name": "Marina Azevedo",
+             "charge": "Desenvolvedora Mobile",
+             "image": "https://www.caymancrystalcaves.com/cache/Testimonial/640_640/agent_1500054140.jpg",
+             "group": "Mobile",
+             "id": "23",
+             "favorite": false
+         },
+         {
+             "name": "Ana Costa",
+             "charge": "Tech Lead",
+             "image": "https://i.pinimg.com/736x/f8/b8/b0/f8b8b04e9151a7059d3be9a942c34b53.jpg",
+             "group": "Mobile",
+             "id": "24",
+             "favorite": false
+         },
+         {
+            "name": "Vitor Almeida",
+            "charge": "Gestor de Inovação",
+            "image": "https://inlandeye.com/wp-content/uploads/Successful-LASIK-1536x1024.jpg",
+            "group": "Gestão e Inovação",
+            "id": "25",
+            "favorite": false
+         },
+         {
+             "name": "Julian Alves",
+             "charge": "Instrutor",
+             "image": "https://diffusionph.cccommunication.biz/jpgok/RepGR/688/688209_6.jpg",
+             "group": "Gestão e Inovação",
+             "id": "26",
+             "favorite": false
+         },
+         {
+             "name": "Douglas Melo",
+             "charge": "Desenvolvedor Organizacional",
+             "image": "https://www.turkguven.com/old/assets/img/people/img2-large.jpg",
+             "group": "Gestão e Inovação",
+             "id": "27",
+             "favorite": false
+         },
+         {
+             "name": "Tiago Castro",
+             "charge": "Gerente de CIP",
+             "image": "https://www.understandingrelationships.com/wp-content/uploads/Fotolia_63579279_Subscription_Monthly_M.jpg",
+             "group": "Gestão e Inovação",
+             "id": "28",
+             "favorite": false
+         }
+    ]
+}
