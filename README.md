@@ -1,6 +1,39 @@
-# Projeto Organo <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien.png" alt="Alien" width="25" height="25" />
+# 👥 Organo
 
-### Construído na formação Explore React com JavaScript da Alura
+O organo é um projeto para cadastrar times e colaboradores para esses times. Os colaboradores já cadastrados podem ser visualizados ao subir a api local.
+Os colaboradores podem ser favoritados ou excluídos dos times e cada time pode ter sua cor alterada.
 
-### Acesse através do Link:
-### https://alura-organo-black.vercel.app/
+## 💻 Tecnologias utilizadas
+
+Para construção desse projeto foram utilizados:
+
+- React
+- JavaScript
+
+## 🚀 Instalação
+
+Após clonar o projeto, acesse o diretório e digite o comando abaixo para instalar as dependências necessárias:
+
+```
+npm install
+```
+
+Inicie o servidor da api local:
+
+```
+npm run api
+```
+
+Inicie o servidor
+
+```
+npm start
+```
+
+## 📕 Aprendizados
+
+Neste projeto aprendemos como funciona o React, como funcionam as props e como utilizar alguns dos seus principais hooks.
+
+## 👉 Confira o projeto pelo link:
+
+https://alura-organo-black.vercel.app/
